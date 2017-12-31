@@ -18,9 +18,11 @@ Struct使用new的目的和引用类型不同，是为了初始化内部成员�
 * 将值类型未装箱的实例传递给接口的时候，会装箱，因为接口对应的是引用。  
 *书上这里写的也比较绕口，具体参考P122的例子,例子和例子的解释都非常的清楚。*    
 C#不允许更改已装箱的值。
+
 ## 相等性和同一性
 Equals方法=同一性identity;重写Equals;静态方法ReferenceEquals;
-接口System.IComparable,System.IComparable<T>,CompareTo方法    
+接口System.IComparable,System.IComparable<T>,CompareTo方法   
+ 
 ## 对象HashCode
 两个对象相等，必须要有相同的hashcode.  
 
