@@ -1,4 +1,4 @@
-# LiveCharts文档-3开始-5Series
+# LiveCharts文档-3开始-5序列Series
 ## Strokes和Fills 笔触和填充
 所有的Series都有笔触和填充属来处理颜色，都支持的是System.Windows.Media.Brush.你也可以使用复杂的填充和笔触，请参阅其他的文章。  
 ```
