@@ -2,4 +2,5 @@
 罗列重要对象
 ## File类
 ## Directory类
+## Path类
 ## BinaryReader类和BinaryWriter类
