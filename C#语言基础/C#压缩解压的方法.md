@@ -23,13 +23,12 @@ SharpZipLib是icsharpcode的库（大名鼎鼎的开源IED—sharpdevelop的组�
 安装好库后，直接在VS的对象管理器中查看相关的命名空间和类对象，结合一点其他的经验，差不多也就知道怎么用了。  
 
 ### 我用过的命名空间和类
-[项目API地址][3]这里是对命名空间和类的解析，里面东西还是挺多的，下面我会罗列一些我使用过的命名空间和类。   
+[项目API地址][3] 这里是对命名空间和类的解析，里面东西还是挺多的，下面我会罗列一些我使用过的命名空间和类。   
 ICSharpCode.SharpZipLib.Zip命名空间  
 ZipFile类，FastZip类，ZipEntry类=压缩包里的一个文件,ZipOutStream类=压缩包
-
-
+其余的命名空间和类库看API介绍，用的时候再研究。
 ## 借用7Zip进行操作
-
+使用7zip要先安装7zip，然后通过process的方式启动7zip加命令行参数来操作。也有人弄了封装的7zip库。
 
 
 [1]:https://msdn.microsoft.com/zh-cn/library/system.io.compression(v=vs.110).aspx
